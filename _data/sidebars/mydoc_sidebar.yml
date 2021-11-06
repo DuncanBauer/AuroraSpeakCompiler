@@ -61,6 +61,7 @@ entries:
       output: web, pdf
 
 
+
   - title: General Principles
     output: web, pdf
     
@@ -84,6 +85,103 @@ entries:
     - title: Syntax Notation
       url: /syntax_notation.html
       output: web, pdf
+      
+  - title: Lexical Conventions
+    output: web, pdf
+    
+    folderitems:
+    - title: Separate Translation
+      url: /.html
+      output: web, pdf
+      
+    - title: Phases of Translation
+      url: /.html
+      output: web, pdf
+      
+    - title: Character Sets
+      url: /.html
+      output: web, pdf
+      
+    - title: Preprocessing Tokens
+      url: /.html
+      output: web, pdf
+      
+    - title: Tokens
+      url: /.html
+      output: web, pdf
+      
+    - title: Alternative Tokens
+      url: /.html
+      output: web, pdf
+      
+    - title: Comments
+      url: /.html
+      output: web, pdf
+
+    - title: Module Names
+      url: /.html
+      output: web, pdf
+      
+    - title: Preprocessing Numbers
+      url: /.html
+      output: web, pdf
+
+    - title: Identifiers
+      url: /.html
+      output: web, pdf
+
+    - title: Keywords
+      url: /.html
+      output: web, pdf
+
+    - title: Operators and Punctuators
+      url: /.html
+      output: web, pdf
+
+    - title: Literals
+      output: web, pdf
+      
+      folderitems:
+      - title: Kinds of literals
+        url: /.html
+        output: web, pdf
+        
+      - title: Integer literals
+        url: /.html
+        output: web, pdf
+        
+      - title: Character literals
+        url: /.html
+        output: web, pdf
+        
+      - title: Floating points literals
+        url: /.html
+        output: web, pdf
+        
+      - title: String literals
+        url: /.html
+        output: web, pdf
+        
+      - title: Boolean literals
+        url: /.html
+        output: web, pdf
+        
+      - title: Pointer literals
+        url: /.html
+        output: web, pdf
+        
+      - title: User-defined literals
+        url: /.html
+        output: web, pdf
+        
+
+   
+
+
+
+
+
+
 
 
   - title: Authoring
@@ -198,9 +296,7 @@ entries:
       url: /mydoc_commenting_on_files.html
       output: web, pdf
 
-#    - title: Git collaboration
-#      url: /mydoc_git_collaboration
-#      output: web, pdf
+
 
   - title: Publishing
     output: web, pdf
