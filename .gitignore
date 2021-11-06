@@ -1,0 +1,13 @@
+_site/
+.sass-cache/
+.jekyll-metadata
+_pdf
+.DS_Store
+.idea
+vendor/
+.bundle/
+build/*
+design/*
+lib/*
+src/*
+include/*
