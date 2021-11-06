@@ -44,14 +44,6 @@ entries:
       url: /mydoc_support.html
       output: web, pdf
 
-  - title: Release Notes
-    output: web, pdf
-    folderitems:
-
-    - title: 0.1 Release notes
-      url: /mydoc_release_notes_01.html
-      output: web, pdf
-
   - title: Installation
     output: web, pdf
     folderitems:
@@ -67,6 +59,32 @@ entries:
     - title: Install Jekyll on Windows
       url: /mydoc_install_jekyll_on_windows.html
       output: web, pdf
+
+
+  - title: General Principles
+    output: web, pdf
+    
+    folderitems:
+    - title: Implementation Compliance
+      output: web, pdf
+      
+      folderitems:
+      - title: General
+        url: /general.html
+        output: web, pdf
+        
+      - title: Abstract Machine
+        url: /abstract_machine.html
+        output: web, pdf
+        
+    - title: Document Structure
+      url: /document_structure.html
+      output: web, pdf
+        
+    - title: Syntax Notation
+      url: /syntax_notation.html
+      output: web, pdf
+
 
   - title: Authoring
     output: web, pdf
