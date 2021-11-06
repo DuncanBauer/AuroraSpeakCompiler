@@ -1,2 +1,2 @@
 # Aurora Speak
-## Documentation to come
+View documentation [here](https://duncanbauer.github.io/AuroraSpeak/)
