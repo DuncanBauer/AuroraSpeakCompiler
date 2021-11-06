@@ -74,6 +74,7 @@ enum class TokenType
 
   // FLOW CONTROL TOKENS
   tok_if,
+  tok_unless,
   tok_else,
   tok_switch,
   tok_case,

@@ -125,6 +125,10 @@ std::vector<Token> Lexer::lex(std::string _file)
       {
         newToken.setType(TokenType::tok_if);
       }
+      else if (identifier == "unless")
+      {
+        newToken.setType(TokenType::tok_unless);
+      }
       else if (identifier == "else")
       {
         newToken.setType(TokenType::tok_else);
@@ -427,6 +431,16 @@ std::vector<Token> Lexer::lex(std::string _file)
         newToken.setType(TokenType::tok_quote);
         newToken.setTokenString(identifier);
       }
+      else if (data[i] == ';')
+      {
+        newToken.setType(TokenType::tok_semi_colon);
+        newToken.setTokenString(identifier);
+      }
+      else if (data[i] == ':')
+      {
+        newToken.setType(TokenType::tok_colon);
+        newToken.setTokenString(identifier);
+      }
       //
       // These we need to look ahead for
       // +, -, *, /, %, <, >, &, ^, |, =, !
@@ -678,16 +692,6 @@ std::vector<Token> Lexer::lex(std::string _file)
           newToken.setType(TokenType::tok_logical_not);
           newToken.setTokenString(identifier);
         }
-      }
-      else if (data[i] == ';')
-      {
-        newToken.setType(TokenType::tok_semi_colon);
-        newToken.setTokenString(identifier);
-      }
-      else if (data[i] == ':')
-      {
-        newToken.setType(TokenType::tok_colon);
-        newToken.setTokenString(identifier);
       }
       tokens.push_back(newToken);
     }
